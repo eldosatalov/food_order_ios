@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0122C359258BDB5E001E80D5 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122C358258BDB5E001E80D5 /* BaseResponse.swift */; };
+		0142C257258487C1008DB28D /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142C256258487C1008DB28D /* FoodListViewController.swift */; };
+		0142C26A25848C94008DB28D /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142C26925848C94008DB28D /* Food.swift */; };
+		0142C27225848E2F008DB28D /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142C27125848E2F008DB28D /* FoodListView.swift */; };
+		0142C27B258492BF008DB28D /* FoodListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142C27A258492BF008DB28D /* FoodListCell.swift */; };
+		0142C27E2584C09D008DB28D /* FoodDetailViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142C27D2584C09D008DB28D /* FoodDetailViewViewController.swift */; };
 		01F6781125846C53009889B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F6781025846C53009889B7 /* AppDelegate.swift */; };
 		01F6781325846C53009889B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F6781225846C53009889B7 /* SceneDelegate.swift */; };
-		01F6781525846C53009889B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F6781425846C53009889B7 /* ViewController.swift */; };
 		01F6781825846C53009889B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F6781625846C53009889B7 /* Main.storyboard */; };
 		01F6781B25846C53009889B7 /* FoodDelivery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01F6781925846C53009889B7 /* FoodDelivery.xcdatamodeld */; };
 		01F6781D25846C55009889B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F6781C25846C55009889B7 /* Assets.xcassets */; };
@@ -17,10 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0122C358258BDB5E001E80D5 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		0142C256258487C1008DB28D /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
+		0142C26925848C94008DB28D /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		0142C27125848E2F008DB28D /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		0142C27A258492BF008DB28D /* FoodListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListCell.swift; sourceTree = "<group>"; };
+		0142C27D2584C09D008DB28D /* FoodDetailViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewViewController.swift; sourceTree = "<group>"; };
 		01F6780D25846C53009889B7 /* FoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F6781025846C53009889B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F6781225846C53009889B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01F6781425846C53009889B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01F6781725846C53009889B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01F6781A25846C53009889B7 /* FoodDelivery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodDelivery.xcdatamodel; sourceTree = "<group>"; };
 		01F6781C25846C55009889B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +49,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0142C25A258487FC008DB28D /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				0142C25B2584880B008DB28D /* FoodList */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		0142C25B2584880B008DB28D /* FoodList */ = {
+			isa = PBXGroup;
+			children = (
+				0142C256258487C1008DB28D /* FoodListViewController.swift */,
+				0142C27D2584C09D008DB28D /* FoodDetailViewViewController.swift */,
+			);
+			path = FoodList;
+			sourceTree = "<group>";
+		};
+		0142C25D25848AED008DB28D /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				0142C27A258492BF008DB28D /* FoodListCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		0142C26325848C62008DB28D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0142C26925848C94008DB28D /* Food.swift */,
+				0122C358258BDB5E001E80D5 /* BaseResponse.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		01F6780425846C52009889B7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +102,17 @@
 		01F6780F25846C53009889B7 /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				0142C26325848C62008DB28D /* models */,
+				0142C25D25848AED008DB28D /* cells */,
+				0142C25A258487FC008DB28D /* screens */,
 				01F6781025846C53009889B7 /* AppDelegate.swift */,
 				01F6781225846C53009889B7 /* SceneDelegate.swift */,
-				01F6781425846C53009889B7 /* ViewController.swift */,
 				01F6781625846C53009889B7 /* Main.storyboard */,
 				01F6781C25846C55009889B7 /* Assets.xcassets */,
 				01F6781E25846C55009889B7 /* LaunchScreen.storyboard */,
 				01F6782125846C55009889B7 /* Info.plist */,
 				01F6781925846C53009889B7 /* FoodDelivery.xcdatamodeld */,
+				0142C27125848E2F008DB28D /* FoodListView.swift */,
 			);
 			path = FoodDelivery;
 			sourceTree = "<group>";
@@ -140,10 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F6781525846C53009889B7 /* ViewController.swift in Sources */,
+				0122C359258BDB5E001E80D5 /* BaseResponse.swift in Sources */,
+				0142C26A25848C94008DB28D /* Food.swift in Sources */,
+				0142C257258487C1008DB28D /* FoodListViewController.swift in Sources */,
+				0142C27E2584C09D008DB28D /* FoodDetailViewViewController.swift in Sources */,
+				0142C27B258492BF008DB28D /* FoodListCell.swift in Sources */,
 				01F6781B25846C53009889B7 /* FoodDelivery.xcdatamodeld in Sources */,
 				01F6781125846C53009889B7 /* AppDelegate.swift in Sources */,
 				01F6781325846C53009889B7 /* SceneDelegate.swift in Sources */,
+				0142C27225848E2F008DB28D /* FoodListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,9 @@ class FoodDetailViewViewController: UIViewController {
     var name: String!
     var price: String!
     
-
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    
+    @IBOutlet weak var addToCart: UIButton!
     @IBOutlet weak var priceView: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleView: UILabel!
@@ -23,6 +25,13 @@ class FoodDetailViewViewController: UIViewController {
         titleView.text = self.name
         priceView.text = self.price
 
+    }
+    @IBAction func addToCartFood(_ sender: Any) {
+        let newFood = FoodCD(context: self.context)
+        newFood.image = self.image
+        newFood.name = self.name
+        newFood.price = self.price
+        try? self.context.save()
     }
     
 

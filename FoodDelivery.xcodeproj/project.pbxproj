@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0122C359258BDB5E001E80D5 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122C358258BDB5E001E80D5 /* BaseResponse.swift */; };
+		01290B6B259C3C70006F9B79 /* FoodCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01290B69259C3C70006F9B79 /* FoodCD+CoreDataClass.swift */; };
+		01290B6C259C3C70006F9B79 /* FoodCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01290B6A259C3C70006F9B79 /* FoodCD+CoreDataProperties.swift */; };
+		01290B74259C3E92006F9B79 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01290B73259C3E92006F9B79 /* CartViewController.swift */; };
 		0142C257258487C1008DB28D /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142C256258487C1008DB28D /* FoodListViewController.swift */; };
 		0142C26A25848C94008DB28D /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142C26925848C94008DB28D /* Food.swift */; };
 		0142C27225848E2F008DB28D /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142C27125848E2F008DB28D /* FoodListView.swift */; };
@@ -23,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		0122C358258BDB5E001E80D5 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		01290B69259C3C70006F9B79 /* FoodCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		01290B6A259C3C70006F9B79 /* FoodCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		01290B73259C3E92006F9B79 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		0142C256258487C1008DB28D /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
 		0142C26925848C94008DB28D /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		0142C27125848E2F008DB28D /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				0142C25B2584880B008DB28D /* FoodList */,
+				01290B73259C3E92006F9B79 /* CartViewController.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -77,6 +84,8 @@
 		0142C26325848C62008DB28D /* models */ = {
 			isa = PBXGroup;
 			children = (
+				01290B69259C3C70006F9B79 /* FoodCD+CoreDataClass.swift */,
+				01290B6A259C3C70006F9B79 /* FoodCD+CoreDataProperties.swift */,
 				0142C26925848C94008DB28D /* Food.swift */,
 				0122C358258BDB5E001E80D5 /* BaseResponse.swift */,
 			);
@@ -191,10 +200,13 @@
 				0142C26A25848C94008DB28D /* Food.swift in Sources */,
 				0142C257258487C1008DB28D /* FoodListViewController.swift in Sources */,
 				0142C27E2584C09D008DB28D /* FoodDetailViewViewController.swift in Sources */,
+				01290B74259C3E92006F9B79 /* CartViewController.swift in Sources */,
 				0142C27B258492BF008DB28D /* FoodListCell.swift in Sources */,
 				01F6781B25846C53009889B7 /* FoodDelivery.xcdatamodeld in Sources */,
 				01F6781125846C53009889B7 /* AppDelegate.swift in Sources */,
 				01F6781325846C53009889B7 /* SceneDelegate.swift in Sources */,
+				01290B6C259C3C70006F9B79 /* FoodCD+CoreDataProperties.swift in Sources */,
+				01290B6B259C3C70006F9B79 /* FoodCD+CoreDataClass.swift in Sources */,
 				0142C27225848E2F008DB28D /* FoodListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
